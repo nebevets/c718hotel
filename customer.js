@@ -7,7 +7,7 @@ class Customer{
 		this.isHungry = false;
 	}
 	orderRoomService( food ){
-		this.room.getRoomService(food);
+		this.room.getRoomService( food );
 	}
 	eat( food ){
 		
