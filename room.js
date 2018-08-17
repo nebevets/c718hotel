@@ -1,17 +1,15 @@
-
-
-class Room{
-	constructor(){
+class Room {
+	constructor(currentHotel) {
 		this.occupant = null; //a customer
-		this.hotel = null;
+		this.hotel = currentHotel;
 	}
-	addOccupant( customer ){
+	addOccupant(customer) {
 
 	}
-	removeOccupant(){
+	removeOccupant() {
 
 	}
-	getRoomService(food){
+	getRoomService(food) {
 		this.hotel.getKitchenService();
 	}
 }
