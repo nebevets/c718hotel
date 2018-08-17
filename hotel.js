@@ -1,19 +1,25 @@
 class Hotel {
 	constructor() {
+
+// add room
+
+class Hotel{
+	constructor() {
 		this.name = 'marriot';
 		this.rooms = [];
 		this.staff = [];
 	}
 	//make a customer object with the given name and add to a room.  need to add to a room with no occupants
-	checkInCustomer(name) {
-
+	checkInCustomer( name ) {
+		var customer = new Customer(name);
 	}
 	checkOutCustomer() {
 
 	}
 	//make a room and add to rooms array
-	addRoom() {
-
+	addRoom(){
+		var newRoom = new Room(this);
+		this.rooms.push(newRoom);
 	}
 	//add staff to the hotel
 	hireStaff(name) {
