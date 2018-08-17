@@ -1,4 +1,5 @@
 class Room {
+
 	constructor(hotelReference) {
 		this.occupant = null; //a customer
 		this.hotel = hotelReference;
