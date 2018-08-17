@@ -1,9 +1,13 @@
 class Room {
-	constructor(currentHotel) {
+
+	constructor(hotelReference) {
 		this.occupant = null; //a customer
-		this.hotel = currentHotel;
+		this.hotel = hotelReference;
 	}
-	addOccupant(customer) {
+	addOccupant( customer ) {
+		this.occupant = customer;
+	}
+	checkIfOccupied() {
 
 	}
 	removeOccupant() {
