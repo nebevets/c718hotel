@@ -1,7 +1,5 @@
-class Hotel {
-	constructor() {
 
-// add room
+
 
 class Hotel{
 	constructor() {
