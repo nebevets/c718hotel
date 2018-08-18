@@ -1,8 +1,3 @@
-class Hotel {
-	constructor() {
-
-// add room
-
 class Hotel{
 	constructor() {
 		this.name = 'marriot';
@@ -24,7 +19,8 @@ class Hotel{
 	}
 	//add staff to the hotel
 	hireStaff(name) {
-
+		var newStaff = new Staff(this);
+		this.staff.push(newStaff);
 	}
 	getVacantRooms() {
 
